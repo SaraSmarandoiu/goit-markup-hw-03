@@ -175,13 +175,13 @@ img {
 }
 .header-section {
   display: flex;
+  flex-wrap: wrap;
 }
 .header-section.container {
   width: 1158px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  display: flex;
 }
 .nav-section {
   display: flex;
@@ -197,10 +197,12 @@ img {
 .menu.link {
   padding: 24px 0;
 }
+
 .list.address-list {
   display: flex;
   gap: 40px;
 }
+
 .second-section {
   padding: 120px 0;
 }
@@ -223,7 +225,7 @@ img {
   gap: 24px;
 }
 .list-item {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .portfolio {
   padding-bottom: 120px;
