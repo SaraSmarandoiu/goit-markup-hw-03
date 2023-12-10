@@ -229,7 +229,7 @@ img {
   display: flex;
   gap: 24px;
 }
-li.images-third-list {
+.li.images-third-list {
   width: calc((100% - 48px) / 3);
 }
 
