@@ -223,7 +223,6 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
-  width: 1440px;
 }
 .list-item {
   width: calc((100% - 72px) / 4);
