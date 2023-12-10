@@ -1,0 +1,140 @@
+:root {
+  --basic-color: #ffffffff;
+  --brand-color: #4d5ae5;
+  --logo-color: #2e2f42;
+  --contacts-color: #434455;
+  --focus-color: #404bbf;
+  --word-color: #f4f4fd;
+}
+.body {
+  font-family: "Roboto", sans-serif;
+  color: var(--contacts-color);
+  background-color: var(--basic-color);
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--brand-color);
+}
+.link {
+  text-decoration: none;
+}
+.logoword {
+  color: var(--logo-color);
+}
+.list {
+  list-style-type: none;
+}
+.menu {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--logo-color);
+}
+.menu.link:hover,
+.menu.link:focus {
+  color: var(--focus-color);
+}
+.address {
+  font-style: normal;
+}
+.contacts {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--contacts-color);
+}
+.contacts.link:hover,
+.contacts.link:focus {
+  color: var(--focus-color);
+}
+.order-service {
+  background-color: var(--logo-color);
+}
+.solutions {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--basic-color);
+}
+.order-button {
+  background-color: var(--brand-color);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--basic-color);
+  cursor: pointer;
+}
+.order-button:hover,
+.order-button:focus {
+  background-color: var(--focus-color);
+}
+.list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--logo-color);
+}
+.list-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--contacts-color);
+}
+.what-do {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--logo-color);
+}
+.cards-section {
+  background-color: var(--word-color);
+}
+.cards-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--logo-color);
+}
+.title {
+  background-color: var(--basic-color);
+}
+.footer {
+  background-color: var(--logo-color);
+}
+.word.link {
+  color: var(--word-color);
+}
+.word.text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--word-color);
+}
+.button-filter {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--brand-color);
+  background-color: #f4f4fd;
+  cursor: pointer;
+}
+.button-filter:hover,
+.button-filter:focus {
+  background-color: var(--focus-color);
+  color: var(--basic-color);
+}
