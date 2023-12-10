@@ -5,6 +5,7 @@
   --contacts-color: #434455;
   --focus-color: #404bbf;
   --word-color: #f4f4fd;
+  --list-color: #e7e9fc;
 }
 .body {
   font-family: "Roboto", sans-serif;
@@ -127,8 +128,8 @@
   background-color: var(--basic-color);
   border-radius: 0px 0px 4px 4px;
 }
-li.title {
-  width: calc(100% - 72px) / 4;
+.title {
+  width: calc((100% - 3 * 24px) / 4);
 }
 .footer {
   background-color: var(--logo-color);
@@ -152,7 +153,7 @@ li.title {
   background-color: var(--word-color);
   cursor: pointer;
   padding: 12px 24px;
-  border: 1px solid #e7e9fc;
+  border: 1px solid var(--list-color);
   border-radius: 4px;
 }
 .button-filter:hover,
@@ -169,7 +170,7 @@ img {
   width: 1158px;
 }
 .header {
-  border-bottom: 1px solid #e7e9fc;
+  border-bottom: 1px solid var(--list-color);
 }
 .header-section {
   display: flex;
@@ -272,7 +273,7 @@ img {
 }
 .apps-name {
   padding: 32px 16px;
-  border: 1px solid #e7e9fc;
+  border: 1px solid var(--list-color);
   border-top: none;
 }
 .list-title {
