@@ -219,6 +219,7 @@ img {
 }
 .list.second-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
 }
 .list-item {
