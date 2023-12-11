@@ -222,8 +222,6 @@ img {
   display: flex;
   gap: 24px;
   flex-direction: row;
-  width: 100%;
-  min-width: 264px;
 }
 
 .portfolio {
@@ -281,7 +279,8 @@ img {
   gap: 32px;
 }
 .list-item {
-  width: 264px;
+  width: 100%;
+  min-width: 264px;
 }
 .list-title-second {
   font-weight: 500;
