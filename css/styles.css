@@ -165,10 +165,9 @@ img {
   display: block;
 }
 .container {
-  width: 1200px;
+  width: 1158px;
   margin: 0;
   padding: 0 15px;
-  justify-content: center;
 }
 .header {
   border-bottom: 1px solid var(--list-color);
