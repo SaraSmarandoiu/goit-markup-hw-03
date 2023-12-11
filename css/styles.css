@@ -127,8 +127,6 @@
 .title {
   background-color: var(--basic-color);
   border-radius: 0px 0px 4px 4px;
-  width: 100%;
-  min-width: 264px;
 }
 
 .footer {
@@ -167,7 +165,10 @@ img {
   display: block;
 }
 .container {
-  width: 1158px;
+  width: 1200px;
+  margin: 0;
+  padding: 0 15px;
+  justify-content: center;
 }
 .header {
   border-bottom: 1px solid var(--list-color);
@@ -231,9 +232,11 @@ img {
 .portfolio {
   padding-bottom: 120px;
 }
+
 .list.portfolio-list {
   display: flex;
   gap: 24px;
+  justify-content: space-between;
 }
 .images-third-list {
   width: 264px;
@@ -270,6 +273,7 @@ img {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  justify-content: space-evenly;
 }
 .app-item {
   flex-basis: calc((100%-48px) / 3);
