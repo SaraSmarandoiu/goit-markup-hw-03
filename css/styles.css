@@ -221,7 +221,6 @@ img {
 .list.second-list {
   display: flex;
   gap: 24px;
-  width: 270px;
   flex-direction: row;
   width: 100%;
   min-width: 264px;
