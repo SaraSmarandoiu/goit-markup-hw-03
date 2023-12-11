@@ -127,13 +127,13 @@
 .title {
   background-color: var(--basic-color);
   border-radius: 0px 0px 4px 4px;
-  margin-left: 24x;
+  width: 100%;
+  min-width: 264px;
 }
-.title {
-  width: 264px;
-}
+
 .footer {
   background-color: var(--logo-color);
+  padding: 100px 0;
 }
 .word.link {
   color: var(--word-color);
@@ -142,7 +142,6 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--word-color);
-  max-width: 264px;
 }
 .button-filter {
   font-family: "Roboto", sans-serif;
@@ -225,7 +224,8 @@ img {
   gap: 24px;
 }
 .list-item {
-  width: 264px;
+  width: 100%;
+  min-width: 264px;
 }
 
 .portfolio {
@@ -249,9 +249,6 @@ img {
   padding: 32px 0;
 }
 
-.footer {
-  padding: 100px 0;
-}
 .logo.footer-logo.link {
   display: inline-block;
   margin-bottom: 16px;
@@ -275,13 +272,10 @@ img {
   row-gap: 48px;
 }
 .app-item {
-  flex-basis: 264px;
+  flex-basis: calc((100%-48px) / 3);
 }
 .apps-name {
   padding: 32px 16px;
   border: 1px solid var(--list-color);
   border-top: none;
-}
-.list-title {
-  margin-bottom: 8px;
 }
