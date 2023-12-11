@@ -220,8 +220,10 @@ img {
 }
 .list.second-list {
   display: flex;
-  flex-wrap: wrap;
+
   gap: 24px;
+  width: 270px;
+  flex-direction: row;
 }
 .list-item {
   width: 100%;
@@ -235,17 +237,14 @@ img {
 .list.portfolio-list {
   display: flex;
   gap: 24px;
-  justify-content: space-between;
-  flex-wrap: wrap;
 }
 .images-third-list {
-  width: 264px;
+  width: 360px;
 }
 
 .list.cards-list {
   display: flex;
   gap: 24px;
-  flex-wrap: wrap;
 }
 
 .name-job {
