@@ -236,13 +236,14 @@ img {
   display: flex;
   gap: 24px;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .images-third-list {
   width: 264px;
 }
 
 .list.cards-list {
-  display: inline-flex;
+  display: flex;
   gap: 24px;
   flex-wrap: wrap;
 }
