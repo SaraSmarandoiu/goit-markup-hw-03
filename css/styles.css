@@ -93,14 +93,14 @@
   letter-spacing: 0.02em;
   color: var(--logo-color);
   margin-bottom: 8px;
-  text-align: center;
+  text-align: left;
 }
 .list-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--contacts-color);
-  text-align: center;
+  text-align: left;
 }
 .what-do {
   font-size: 36px;
